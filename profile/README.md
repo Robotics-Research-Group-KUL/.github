@@ -7,7 +7,7 @@ While Orocos is nowadays maintain externally, we keep some packages that can pro
   - `rttlua_completion`
   - `rFSM`
   - `rtt_dot_service`
--python_gui: a configurable ROS graphical interface to send events to rFSM.
+- `python_gui`: a configurable ROS graphical interface to send events to rFSM.
 
 <!--
 
