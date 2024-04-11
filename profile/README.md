@@ -3,19 +3,21 @@
 ## Orocos and rtt-ros packages
 While Orocos is nowadays maintained externally, we keep some packages that can prove useful
 ### rtt-ros for ROS1 (noetic)
-
+#### General
 - `rtt_ros_utilities`: a meta-package containing the following packages 
   - `rttlua_completion`
   - `rFSM`
   - `rtt_dot_service`
 - `python_gui`: a configurable ROS graphical interface to send events to rFSM.
-
+  #### Drivers
+- `URDriver`: drivers to to to use UR robots with ROS
+- `rtt_soem_maxpos`: ethercat drivers for the MaxPos, a motor driver from Maxon motors.
 
 ### rtt-ros for ROS2 (foxy)
 
 - `rtt_ros2_utilities`: a meta package containing the following packages
   -  `motion_control`: legacy message types (__ros2 branch__)
-  -  `ros2_rtt_typekits'
+  -  `ros2_rtt_typekits`: typekits for eigen and KDL
   -   `rtt_dot_service`:  (__ros2 branch__)
   -   `rttlua_completion`: (__ros2 branch__)
 - `rtt_ros2_pkg`: adding the command to create packages for orocos in rtt-ros2 integration.
