@@ -22,7 +22,7 @@ While Orocos is nowadays maintained externally, we keep some packages that can p
   -   `rttlua_completion`: (__ros2 branch__)
 - `rtt_ros2_pkg`: adding the command to create packages for orocos in rtt-ros2 integration.
 - `python_gui_ros2`: a configurable ROS graphical interface to send events to rFSM.
-
+- `soem` for ROS2 - necessary for rtt_soem, please use the correct branch (foxy devel).
 
 <!--
 
