@@ -26,7 +26,15 @@ While Orocos is nowadays maintained externally, we keep some packages that can p
 - `soem` for ROS2 - necessary for rtt_soem, please use the correct branch (__foxy_devel branch__).
 - `rtt_soem`:  (__ros2 branch__)
 
+## Docker images
+Images for ros1 and ros2 with the utilities installed can be found here:
+
+https://hub.docker.com/r/gborghesan/orocos
+
+
 <!--
+
+
 
 **Here are some ideas to get you started:**
 
