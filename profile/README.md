@@ -1,12 +1,12 @@
 # 🦾 Software at the Robotics Group (KU Leuven)
 
-## 🤖 eTaSL-related packages
+## 🤖 Crospi: Constraint-based Reactive and Orchestrated Sensor-driven PIpeline.
 
-### eTaSL for ROS2
+Crospi is a highly-configurable pipeline that focuses on interfacing (plugins, ROS2 and non-ROS sensors, robot hardware, easy user interfaces) and easy integration (pipeline for Orchestration, creation of libraries, configuration files, etc), while eTaSL is the language to define the task specifications. eTaSL is a collection of C++/CMake/LUA libraries that are used within Crospi, but that do not depend on Crospi. In summary: all the complex real-time C++ code was already done for you with Crospi, and therefore you can focus on configuring it to use your own robot setup in your own orchestrated applications.
 
 | Package                            | Description                                                      |
 | ---------------------------------- | ---------------------------------------------------------------- |
-| ├─ [`crospi_core`](https://github.com/Robotics-Research-Group-KUL/crospi_core) | This package was created to be able to develop constraint-based reactive robot behaviors with eTaSL that can fully operate with the ROS2 architecture                     |
+| ├─ [`crospi_core`](https://github.com/Robotics-Research-Group-KUL/crospi_core) | This package was created to be able to develop constraint-based reactive robot behaviors with eTaSL that can fully operate with the ROS2 architecture. |
 | ├─ [`crospi_application_template`](https://github.com/Robotics-Research-Group-KUL/crospi_application_template) | This is a template that facilitates development and provides development functionalities to speed up development and deployment with Crospi.                     |
 | ├─ [`crospi_default_plugins`](https://github.com/Robotics-Research-Group-KUL/crospi_default_plugins) | This package contains the default plugins for crospi_core.                     |
 | ├─ [`crospi_interfaces`](https://github.com/Robotics-Research-Group-KUL/crospi_interfaces) | Package containing ros msgs and srv used to communicate with the crospi_core package. |
