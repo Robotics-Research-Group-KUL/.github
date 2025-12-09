@@ -7,7 +7,7 @@ Crospi is a highly-configurable pipeline that focuses on interfacing (plugins, R
 | Package                            | Description                                                      |
 | ---------------------------------- | ---------------------------------------------------------------- |
 | [`crospi_core`](https://github.com/Robotics-Research-Group-KUL/crospi_core) | This package was created to be able to develop constraint-based reactive robot behaviors with eTaSL that can fully operate with the ROS2 architecture. |
-| [`BeTFSM`](https://github.com/Robotics-Research-Group-KUL/betfsm) | BeTFSM is a library for "ticking" statemachines and behavior trees. It targets discrete coordination of robotic systems at both high- and low level.|
+| [`BeTFSM`](https://github.com/Robotics-Research-Group-KUL/betfsm) ([`doc`](https://betfsm-90d316.pages.gitlab.kuleuven.be/)) | BeTFSM is a library for "ticking" statemachines and behavior trees. It targets discrete coordination of robotic systems at both high- and low level.|
 | [`crospi_application_template`](https://github.com/Robotics-Research-Group-KUL/crospi_application_template) | This is a template that facilitates development and provides development functionalities to speed up development and deployment with Crospi.                     |
 | [`crospi_default_plugins`](https://github.com/Robotics-Research-Group-KUL/crospi_default_plugins) | This package contains the default plugins for crospi_core.                     |
 | [`crospi_interfaces`](https://github.com/Robotics-Research-Group-KUL/crospi_interfaces) | Package containing ros msgs and srv used to communicate with the crospi_core package. |
