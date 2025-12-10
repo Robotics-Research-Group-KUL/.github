@@ -2,7 +2,7 @@
 
 ## 🤖 Crospi: Constraint-based Reactive and Orchestrated Sensor-driven PIpeline.
 
-Crospi is a highly-configurable pipeline that focuses on interfacing (plugins, ROS2 and non-ROS sensors, robot hardware, easy user interfaces) and easy integration (pipeline for Orchestration, creation of libraries, configuration files, etc), while eTaSL is the language to define the task specifications. eTaSL is a collection of C++/CMake/LUA libraries that are used within Crospi, but that do not depend on Crospi. In summary: all the complex real-time C++ code was already done for you with Crospi, and therefore you can focus on configuring it to use your own robot setup in your own orchestrated applications.
+Crospi is a highly-configurable pipeline that focuses on interfacing (plugins, ROS2 and non-ROS sensors, robot hardware, easy user interfaces) and easy integration (pipeline for Orchestration, creation of libraries, configuration files, etc).  It uses eTaSL which is a  collection of C++/CMake/LUA libraries taht define a language and interpreter to specify constraint-based control task specifications. Besides Crospi, there are several other frameworks that use eTaSL, such as ROS/Orocos and ROS2/Orocos (see below). Note that, although the constraint-based task specifications are specified using a scripting language, all real-time critical runs in C++.  With Crospi, you can focus on configuring to use your own robot setup in your own orchestrated applications, and easily reuse tasks and skills from libraries.
 
 | Package                            | Description                                                      |
 | ---------------------------------- | ---------------------------------------------------------------- |
