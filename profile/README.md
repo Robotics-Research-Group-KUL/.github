@@ -6,19 +6,20 @@ Crospi is a highly-configurable pipeline that focuses on interfacing (plugins, R
 
 | Package                            | Description                                                      |
 | ---------------------------------- | ---------------------------------------------------------------- |
-| [`crospi_core`](https://github.com/Robotics-Research-Group-KUL/crospi_core) ([`doc`](https://crospi-website-907f83.pages.gitlab.kuleuven.be/)) | This package was created to be able to develop constraint-based reactive robot behaviors with eTaSL that can fully operate with the ROS2 architecture. |
-| [`BeTFSM`](https://github.com/Robotics-Research-Group-KUL/betfsm) ([`doc`](https://betfsm-90d316.pages.gitlab.kuleuven.be/)) | BeTFSM is a library for "ticking" statemachines and behavior trees. It targets discrete coordination of robotic systems at both high- and low level.|
-| [`crospi_application_template`](https://github.com/Robotics-Research-Group-KUL/crospi_application_template) | This is a template that facilitates development and provides development functionalities to speed up development and deployment with Crospi.                     |
-| [`crospi_default_plugins`](https://github.com/Robotics-Research-Group-KUL/crospi_default_plugins) | This package contains the default plugins for crospi_core.                     |
-| [`crospi_interfaces`](https://github.com/Robotics-Research-Group-KUL/crospi_interfaces) | Package containing ros msgs and srv used to communicate with the crospi_core package. |
-| [`skill_lib_example`](https://github.com/Robotics-Research-Group-KUL/skill_lib_example) | Package with an example of a skill for Crospi. This contains BetFSM skill orchestration examples. |
-| [`core_task_lib`](https://github.com/Robotics-Research-Group-KUL/core_task_lib) | Package with core and common eTaSL task specifications that can be used within the Crospi pipeline for controlling robots. |
-| [`debug_lib`](https://github.com/Robotics-Research-Group-KUL/debug_lib) | Package with eTaSL task specifications for debugging that can be used within the Crospi pipeline. |
-| [`dummy_lib`](https://github.com/Robotics-Research-Group-KUL/dummy_lib) | Package with dummy examples of eTaSL task specifications that can be used within the Crospi pipeline. |
-| [`template_driver_crospi`](https://github.com/Robotics-Research-Group-KUL/template_driver_crospi) | This package contains a template on how to implement a robot driver for crospi_core node using ROS2 plugins. If used without any modification, it will simply simulate the robot by integrating the joint velocities and returning joint positions through shared memory communication. |
-| [`kuka_iiwa_driver_crospi`](https://github.com/Robotics-Research-Group-KUL/kuka_iiwa_driver_crospi) | This package contains a driver for controlling the Kuka iiwa using crospi_core, based on template_driver_crospi package which uses ROS2 plugins. |
-| [`expressiongraph`](https://github.com/Robotics-Research-Group-KUL/expressiongraph) | This package contains a library for automatic differentiation specifically targeted to robotics data-types such as orientations, quaternions, poses, twists and wrenches |
-| [`luabind`](https://github.com/Robotics-Research-Group-KUL/luabind) | This package contains C++ template utilities to bind C++ code to lua |
+| [**BeTFSM**](https://github.com/Robotics-Research-Group-KUL/betfsm) ([`doc`](https://betfsm-90d316.pages.gitlab.kuleuven.be/)) | BeTFSM is a library for "ticking" statemachines and behavior trees. It targets discrete coordination of robotic systems at both high- and low level.|
+| [**Crospi**](https://github.com/Robotics-Research-Group-KUL/crospi) ([`doc`](https://crospi-website-907f83.pages.gitlab.kuleuven.be/)) | This package was created to be able to develop constraint-based reactive robot behaviors with eTaSL that can fully operate with the ROS2 architecture. |
+| ├─ [`crospi_core`](https://github.com/Robotics-Research-Group-KUL/crospi_core) ([`doc`](https://crospi-website-907f83.pages.gitlab.kuleuven.be/)) | Core package of Crospi providing important interfacing tools and ROS2 functionalities. |
+| ├─ [`crospi_application_template`](https://github.com/Robotics-Research-Group-KUL/crospi_application_template) | This is a template that facilitates development and provides development functionalities to speed up development and deployment with Crospi.                     |
+| ├─ [`crospi_default_plugins`](https://github.com/Robotics-Research-Group-KUL/crospi_default_plugins) | This package contains the default plugins for crospi_core.                     |
+| ├─ [`crospi_interfaces`](https://github.com/Robotics-Research-Group-KUL/crospi_interfaces) | Package containing ros msgs and srv used to communicate with the crospi_core package. |
+| ├─ [`skill_lib_example`](https://github.com/Robotics-Research-Group-KUL/skill_lib_example) | Package with an example of a skill for Crospi. This contains BetFSM skill orchestration examples. |
+|├─  [`core_task_lib`](https://github.com/Robotics-Research-Group-KUL/core_task_lib) | Package with core and common eTaSL task specifications that can be used within the Crospi pipeline for controlling robots. |
+| ├─ [`debug_lib`](https://github.com/Robotics-Research-Group-KUL/debug_lib) | Package with eTaSL task specifications for debugging that can be used within the Crospi pipeline. |
+|├─  [`dummy_lib`](https://github.com/Robotics-Research-Group-KUL/dummy_lib) | Package with dummy examples of eTaSL task specifications that can be used within the Crospi pipeline. |
+|├─  [`template_driver_crospi`](https://github.com/Robotics-Research-Group-KUL/template_driver_crospi) | This package contains a template on how to implement a robot driver for crospi_core node using ROS2 plugins. If used without any modification, it will simply simulate the robot by integrating the joint velocities and returning joint positions through shared memory communication. |
+| ├─ [`kuka_iiwa_driver_crospi`](https://github.com/Robotics-Research-Group-KUL/kuka_iiwa_driver_crospi) | This package contains a driver for controlling the Kuka iiwa using crospi_core, based on template_driver_crospi package which uses ROS2 plugins. |
+|├─  [`expressiongraph`](https://github.com/Robotics-Research-Group-KUL/expressiongraph) | This package contains a library for automatic differentiation specifically targeted to robotics data-types such as orientations, quaternions, poses, twists and wrenches |
+|├─  [`luabind`](https://github.com/Robotics-Research-Group-KUL/luabind) | This package contains C++ template utilities to bind C++ code to lua |
 ---
 
 ## 🧩 Orocos and rtt-ros Packages
