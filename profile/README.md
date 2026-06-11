@@ -17,7 +17,7 @@ Crospi is a highly-configurable pipeline that focuses on interfacing (plugins, R
 | Package                            | Description                                                      |
 | ---------------------------------- | ---------------------------------------------------------------- |
 | [**Crospi**](https://github.com/Robotics-Research-Group-KUL/crospi) ([`doc`](https://rob.pages.gitlab.kuleuven.be/crospi/)) | This package was created to be able to develop constraint-based reactive robot behaviors with eTaSL that can fully operate with the ROS2 architecture. |
-| ├─ [`crospi_core`](https://github.com/Robotics-Research-Group-KUL/crospi_core) ([`doc`](https://crospi-website-907f83.pages.gitlab.kuleuven.be/)) | Core package of Crospi providing important interfacing tools and ROS2 functionalities. |
+| ├─ [`crospi_core`](https://github.com/Robotics-Research-Group-KUL/crospi_core) | Core package of Crospi providing important interfacing tools and ROS2 functionalities. |
 | ├─ [`crospi_application_template`](https://github.com/Robotics-Research-Group-KUL/crospi_application_template) | This is a template that facilitates development and provides development functionalities to speed up development and deployment with Crospi.                     |
 | ├─ [`crospi_default_plugins`](https://github.com/Robotics-Research-Group-KUL/crospi_default_plugins) | This package contains the default plugins for crospi_core.                     |
 | ├─ [`crospi_interfaces`](https://github.com/Robotics-Research-Group-KUL/crospi_interfaces) | Package containing ros msgs and srv used to communicate with the crospi_core package. |
