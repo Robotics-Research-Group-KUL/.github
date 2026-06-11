@@ -1,13 +1,22 @@
 # 🦾 Software at the Robotics Group (KU Leuven)
 
+## BetFSM: Behavior Trees & Finite State Machines for Robotics
+
+BetFSM provides a unified and modular framework for orchestrating robotic applications using behavior trees and finite state machines. It supports hierarchical composition, concurrency, and reusable control structures (e.g., sequences, fallbacks, loops, and parallel execution), allowing developers to structure complex task logic in a clear and scalable way. While it can be used independently of ROS2, it also provides complete ROS 2 integration by enabling seamless interaction with nodes, services, and actions, as well as precise timing and lifecycle management of tasks. It bridges high-level decision-making and low-level execution, making it suitable for coordinating both discrete events and continuous robotic behaviors.
+
+| Package                            | Description                                                      |
+| ---------------------------------- | ---------------------------------------------------------------- |
+| [**BeTFSM**](https://github.com/Robotics-Research-Group-KUL/betfsm) ([`doc`](https://robotics-research-group-kul.github.io/betfsm/)) | BeTFSM is a library for "ticking" statemachines and behavior trees. It targets discrete coordination of robotic systems at both high- and low level.|
+
 ## 🤖 Crospi: Constraint-based Reactive and Orchestrated Sensor-driven PIpeline.
+
+[Click here for official website](https://rob.pages.gitlab.kuleuven.be/crospi/)
 
 Crospi is a highly-configurable pipeline that focuses on interfacing (plugins, ROS2 and non-ROS sensors, robot hardware, easy user interfaces) and easy integration (pipeline for Orchestration, creation of libraries, configuration files, etc).  It uses eTaSL which is a  collection of C++/CMake/LUA libraries that define a language and interpreter to specify constraint-based control task specifications. Besides Crospi, there are several other frameworks that use eTaSL, such as ROS/Orocos and ROS2/Orocos (see below). Note that, although the constraint-based task specifications are specified using a scripting language, all real-time critical runs in C++.  With Crospi, you can focus on configuring to use your own robot setup in your own orchestrated applications, and easily reuse tasks and skills from libraries.
 
 | Package                            | Description                                                      |
 | ---------------------------------- | ---------------------------------------------------------------- |
-| [**BeTFSM**](https://github.com/Robotics-Research-Group-KUL/betfsm) ([`doc`](https://robotics-research-group-kul.github.io/betfsm/)) | BeTFSM is a library for "ticking" statemachines and behavior trees. It targets discrete coordination of robotic systems at both high- and low level.|
-| [**Crospi**](https://github.com/Robotics-Research-Group-KUL/crospi) ([`doc`](https://crospi-website-907f83.pages.gitlab.kuleuven.be/)) | This package was created to be able to develop constraint-based reactive robot behaviors with eTaSL that can fully operate with the ROS2 architecture. |
+| [**Crospi**](https://github.com/Robotics-Research-Group-KUL/crospi) ([`doc`](https://rob.pages.gitlab.kuleuven.be/crospi/)) | This package was created to be able to develop constraint-based reactive robot behaviors with eTaSL that can fully operate with the ROS2 architecture. |
 | ├─ [`crospi_core`](https://github.com/Robotics-Research-Group-KUL/crospi_core) ([`doc`](https://crospi-website-907f83.pages.gitlab.kuleuven.be/)) | Core package of Crospi providing important interfacing tools and ROS2 functionalities. |
 | ├─ [`crospi_application_template`](https://github.com/Robotics-Research-Group-KUL/crospi_application_template) | This is a template that facilitates development and provides development functionalities to speed up development and deployment with Crospi.                     |
 | ├─ [`crospi_default_plugins`](https://github.com/Robotics-Research-Group-KUL/crospi_default_plugins) | This package contains the default plugins for crospi_core.                     |
