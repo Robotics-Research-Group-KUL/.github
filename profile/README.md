@@ -75,7 +75,10 @@ Prebuilt Docker images for ROS1 and ROS2 with the above utilities installed:
 👉 [**gborghesan/orocos** on Docker Hub](https://hub.docker.com/r/gborghesan/orocos)
 
 
+## 🌀 Trajectory invariants
 
+Work related to invariant and equivariant representation of trajectories can be found at
+[Trajectory invariants](https://github.com/trajectory-invariants) and [SU-Decomposition](https://github.com/Robotics-Research-Group-KUL/SU_decomposition).
 <!--
 
 
